@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.dang-ol-map {
+  height: 50%;
+  min-height: 400px;
+  width: 50%;
+  min-width: 500px;
+  margin: auto;
+}

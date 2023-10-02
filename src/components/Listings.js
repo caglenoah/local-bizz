@@ -16,9 +16,8 @@ import {
 
 const Listings = (props) => {
     const cookies = cookie.parse(document.cookie)
-    useEffect(() => {
-        console.log(props);
-    }, [props])
+
+        
     return (
         <Container>
             <Table>

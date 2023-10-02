@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Container, Paper, Chip } from "@mui/material";
-
+import { Map } from "./ListingMap"
 
 const Details = (props) => {
     const id = useParams().id;

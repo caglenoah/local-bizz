@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router';
 import cookie from 'cookie';
 
-import AddListing from './components/AddListing';
+import AddListing from "./containers/AddListing";
 import Listings from './containers/Listings'
 import Login from './components/Login'
 import Details from './containers/Details'

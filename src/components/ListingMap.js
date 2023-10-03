@@ -2,8 +2,10 @@ import { useMemo, useEffect, useState } from "react";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 
 export default function ListingMap(props) {
-    const adressStr = props.address.replaceAll(/ /gi, "+");
-    const fetchUrl = 'https://maps.google.com/maps/api/geocode/json?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}&ADDRESS=${addressStr}';
+    console.log(props)
+    const addressStr = props.address.replaceAll(/ /gi, "+");
+    console.log(addressStr)
+    const fetchURL = `https://maps.google.com/maps/api/geocode/json?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}&ADDRESS=${props.address}`;
 
 
     const [data, setData] = useState(null);
@@ -13,6 +15,7 @@ export default function ListingMap(props) {
             try {
                 const response = await fetch(fetchURL).then();
                 const newData = await response.json();
+                console.log(newData)
                 setData(newData.results[0].geometry.location);
             } catch (error) {
                 console.error("Error fetching data:", error);

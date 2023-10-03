@@ -48,6 +48,7 @@ class AddListing extends Component {
     }
 
     render() {
+        console.log(this.props)
         return (
             <Fragment>
                 <div style={{ textAlign: 'center' }}>

@@ -3,10 +3,10 @@ const state = {
     listings: [
         { 
             id: 1,
-            name: "bizz1",
+            name: "WhiteWater LLC",
             description: "not so goood", 
             hours: "9-4",
-            address: "inTown"
+            address: "2000 Devereux Rd, Glenwood Springs, CO 81601-8719, US"
         },
         { 
             id: 2,

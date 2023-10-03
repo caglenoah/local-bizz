@@ -38,9 +38,9 @@
 }
 
 .dang-ol-map {
-  height: 50%;
+  height: 50vh;
   min-height: 400px;
-  width: 50%;
+  width: 100%;
   min-width: 500px;
   margin: auto;
 }

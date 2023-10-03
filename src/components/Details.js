@@ -16,7 +16,7 @@ const Details = (props) => {
             <h3>{bizz.hours}</h3>
             <p>{bizz.description}</p>
         </Container>
-            <ListingMap address = {bizz.address} />
+            {/* <ListingMap address = {bizz.address} /> */}
             </>
     )
 }

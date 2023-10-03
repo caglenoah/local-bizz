@@ -4,16 +4,16 @@ const state = {
         { 
             id: 1,
             name: "WhiteWater LLC",
-            description: "not so goood", 
-            hours: "9-4",
+            description: "pretty sweet!", 
+            hours: "7:00am-7:00pm",
             address: "2000 Devereux Rd, Glenwood Springs, CO 81601-8719, US"
         },
         { 
             id: 2,
-            name: "bizz2",
-            description: "goood", 
+            name: "RMOC",
+            description: "Best instructor ever", 
             hours: "9-4",
-            address: "inTown"
+            address: "23850 US Hwy 285, Buena Vista, CO 81211"
          }
     ]
 };
